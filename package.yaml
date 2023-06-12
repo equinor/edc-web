@@ -1,0 +1,9 @@
+name: edc-web
+version: 1
+scripts:
+  pre-install: npx only-allow pnpm
+author: fg_eds@equinor.com
+license: MIT
+engines:
+  pnpm: >=8
+  node: >=19
